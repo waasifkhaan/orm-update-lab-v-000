@@ -23,7 +23,7 @@ def self.drop_table
   DB[:conn].execute(sql)
 end 
 def save
-  if self.if 
+  if self.id 
     self.update 
   else
     sql = <<-SQL
