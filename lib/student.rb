@@ -40,7 +40,7 @@ def update
 end
 def self.create(name,grade)
   sql = <<-SQL
-  SELECT 
+  SELECT * FROM students 
 end 
   
   
