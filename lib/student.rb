@@ -22,7 +22,7 @@ def self.drop_table
   SQL
   DB[:conn].execute(sql)
 end 
-def save(name,grade)
+def save
   
 
   # Remember, you can access your database connection anywhere in this class
